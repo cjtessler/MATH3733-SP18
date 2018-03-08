@@ -186,6 +186,16 @@ def main():
 
 main()
 
+### Tuples
+# Tuples are essentially immutable lists.
+dimensions = (1920, 1080)
+print(dimensions[0])
+print(dimensions[1])
+dimensions[0] = 1080 # TypeError
+
+# reassign a tupe
+dimensions = (1280, 720)
+
 ### Other List Topics
 # nested arrays
 matix = [[1, 2, 3]
@@ -206,11 +216,5 @@ print(mysquares)
 
 # list()
 print(list(range(100)))
-
-# map
-
-# filter
-
-# reduce
 ```
 
