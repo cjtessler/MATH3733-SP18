@@ -1,4 +1,5 @@
 import random
+from time import sleep
 
 def game():
     '''Implements the guessing game.'''
@@ -36,9 +37,42 @@ def game():
                 print("Thanks for playing!")
                 return False
 
-while True:
-    play = game()
-    # break out of while loop if game returned False
-    if not play:
-        break
+def computer_game():
+    ''' Implements the alternate form of the game.'''
+    print("Input the number the computer should guess: ", end='')
+    target = int(input())
 
+    # Computer guesses
+    guess = 50
+    low = 1
+    high = 100
+    while guess != target:
+        guess = (low + high) // 2 
+        print("The computer guess: ", guess)
+        sleep(1)
+        if guess < target:
+            low = guess
+        elif guess > target:
+            high = guess
+    
+    # The computer guessed correctly
+    print("The computer got it!")
+    return False
+
+
+def main():    
+    print("Welcome to a guessing game!")
+    print("If you would like to guess, enter 1.")
+    print("If you would like the computer to guess, enter 2.")
+    game_mode = int(input())
+    while True:
+        if game_mode == 1:
+            play = game()
+        else:
+            play = computer_game()
+        # break out of while loop if game returned False
+        if not play:
+            break
+
+
+main()
