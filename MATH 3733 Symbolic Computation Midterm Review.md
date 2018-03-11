@@ -1,4 +1,4 @@
-# MATH 3733 Symbolic Computation Midterm Review (Draft)
+# MATH 3733 Symbolic Computation Midterm Review
 
 The exam will be closed-note and paper-based. 
 
@@ -35,11 +35,9 @@ The exam will be closed-note and paper-based.
 
 2. Identify three functions that convert data from one data type to another. Provide a practical example of each function and describe when you would use it in an actual program.
 
-3. Explain the differences and similarities between the `if` statement and a `while` statement in Python
-
 4. Name and describe three different data types in Python and when they could be used in a program.
 
-5. Describe two different ways to stop the following `while` loop from iterating:
+4. Describe two different ways to stop the following `while` loop from iterating:
 
    ```python
    keepgoing = 'yes'
@@ -47,7 +45,7 @@ The exam will be closed-note and paper-based.
        # statements go here
    ```
 
-Draw a stack diagram 
+5. What is the difference between a local and global variable? Give an example.
 
 ## Trace the Output
 
@@ -81,7 +79,7 @@ else:
 ```
 ``` python
 def fun(a):
-    print("a=", a)
+    print("a =", a)
 
 for x in range(5):
     fun(x)
@@ -106,37 +104,10 @@ for x in range(2,4):
         print(x,y, fun(x,y))
 ```
 ``` python
-def render(a,b,c,d,e,f,g,h):
-    for i in range(a):
-        print(' ', end='')
-    for j in range(b):
-        print('*', end='')
-    for k in range(c):
-        print(' ', end='')
-    for m in range(d):
-        print('*', end='')
-    for n in range(e):
-        print(' ', end='')
-    for o in range(f):
-        print('*', end='')
-    for p in range(g):
-        print(' ', end='')
-    for q in range(h):
-        print('*', end='')
+for row in range(7):
+    for col in range(4 - abs(3 - row)):
+        print('#', end='')
     print()
-
-render (10, 1,  0, 0, 0, 0, 0, 0)
-render (9,  1,  0, 0, 0, 0, 0, 0)
-render (6,  6,  0, 0, 0, 0, 0, 0)
-render (4,  2,  6, 2, 0, 0, 0, 0)
-render (3,  1,  3, 1, 3, 1, 2, 1)
-render (3,  1,  2, 3, 1, 3, 1, 1)
-render (3,  1, 10, 1, 0, 0, 0, 0)
-render (3,  1,  2, 1, 5, 1, 1, 1)
-render (3,  1,  3, 5, 2, 1, 0, 0)
-render (3,  1, 10, 1, 0, 0, 0, 0)
-render (4,  2,  6, 2, 0, 0, 0, 0)
-render (6,  6,  0, 0, 0, 0, 0, 0)
 ```
 ``` python
 def f1(a):
@@ -155,7 +126,10 @@ for x in range(5):
 ``` python
 word = "banana"
 for c in word:
-    print(c)
+    if word.index(c) % 2:
+    	print(c.upper())
+    else:
+        print(c)
 ```
 ``` python
 word = "hello, world"
@@ -187,22 +161,6 @@ for c in phrase:
             print(x-1, end="")
 ```
 ``` python
-a = 10
-b = 20
-c = 30
-
-if c > b + a:
-	print ("N\nY\nU\n")
-else:
-	if b + a >= c:
-	print ("C\nO\nU\nR\nA\nN\nT\n")
-	else:
-		print ("S\nT\nE\nR\nN\n")
-
-        
-print (a,b,c)
-```
-``` python
 x = 'cupid'
 z = 'arrow'
 
@@ -214,7 +172,7 @@ if x < z:
 v = x + " <--> " + z
 
 if ( ( (5 + 2 >= 6.0) and (1.0 < 0.5) ) or True):
-    print (x,z,v, sep='\t')
+    print (x,z,v, sep=' ')
 else:
     print (v,z,x, sep='\n')
 ```
@@ -298,9 +256,7 @@ else:
 
 **Solve the following challenges. Proper indentation is required.**
 
-1. Write a program that simulates two 6-sided dice rolls. 
-
-2. The following program draws a triangle using the Turtle Module. Refactor the code to use a `for` loop. Encapsulate the logic into a function called `square`. Generalize the function to draw polygons with different side lengths.
+2. The following program draws a triangle using the Turtle Module. Refactor the code to use a `for` loop. Encapsulate the logic into a function called `triangle` that takes a turtle `t` as a parameter. Generalize the function to make a function called `polygon` that takes the number of sides `n` and a turtle `t` has its parameters.
 
    ```python
    import turtle
@@ -315,17 +271,28 @@ else:
    bob.left(120)
    ```
 
-3. Write a program that asks the user to enter in number. Then have the computer generate a random number and compare the result. If the numbers are the same print out a "You Win!" message. If not, print out a "Bad Guess! Game over!" message.
+3. Write a program that asks the user to enter in number. Then have the computer generate a random number between 1 and 6 inclusive and compare the result. If the numbers are the same print out a "You Win!" message. If not, print out a "Game over!" message.
 
-4. Write a program that prints out all even numbers between 1 and 100,000.
+3. Write a program that prints out all numbers between 1 and 100 on the same line.
+
+   1. Extension 1: Write a program that prints out all *even* numbers between 1 and 100 on the same line.
+
+   2. Extension 2: Write a program that prints out all odd numbers between 1 and 100 on the same line.
+
+   3. Extension 3: Write a program that asks the user to indicate whether they want to see even or odd numbers. Then display the even or odd numbers between 1 and 100 on the same line based on their choice. Note: the user many not supply a valid choice! You will need to re-prompt them if necessary. Here's a sample running of the program:
+
+      ``` 
+      Enter "even" or "odd": apple
+      Sorry, that's not a valid choice!
+      Enter "even" or "odd": odd
+      1 3 5 ... 95 97 99
+      ```
 
 5. Write a program that continually asks the user for a series of prices. Keep track of the running total as the user enters prices. Prompt the user after each price to see if they wish to continue entering prices. When they are finished, print out the total amount entered.
 
 6. Write a function that accepts two arguments and computes the first argument raised to the power of the second argument. 
 
-7. Write a function that calculates the area of a triangle.
-
-8. Write a recursive function that prints the first `n` terms of the Fibonacci sequence.
+6. Write a function that calculates the area of a triangle.
 
 9. Write a recursive function that returns $n!$.
 
@@ -341,6 +308,10 @@ else:
     Lower than 65: F
     ```
 
-12. Write a function that accepts a single string as an argument. Your function should then determine if the string contains a majority of uppercase characters. For example, the String "ABCab" has 3 uppercase characters out of its 5 total characters, so it contains a majority of uppercase characters. If so, return True, and if not return False.
+10. Write a function that accepts a single string as an argument. Your function should then determine if the string contains a majority of uppercase characters. For example, the String "ABCab" has 3 uppercase characters out of its 5 total characters, so it contains a majority of uppercase characters. If so, return True, and if not return False.
 
 13. Write a function that accepts a single string as an argument. Flip the case of the String so that uppercase characters become lowercase and lowercase characters become uppercase. Return the new string.
+
+14. Write a function that receives a list of integers and returns their sum.
+
+13. Write a function that calculates the average of a list of numbers.
