@@ -75,18 +75,20 @@ print(list(42)) # TypeError: 'int' object is not iterable
 
 
 ### Exercise: Grocery List Input
-# Adds grocery items to a list as they are input, until the user enters "done."
+# Adds grocery items to a list as they are input, until the user enters "done".
+# Prints the sorted list
 
 def main():
-    grocery_list = [] # initialize empty list
+    # initialize empty list
+    grocery_list = [] 
 
-    item = input('Enter a grocery item or "done": ')
-
+    # adds items to list
     while item != 'done':
-        grocery_list.append(item) # add to list
         item = input('Enter a grocery item or "done": ')
+        grocery_list.append(item) # add to list
 
-    grocery_list.sort() # organize list alphabetically
+    # organize list alphabetically
+    grocery_list.sort() 
 
     print()
     
@@ -95,7 +97,7 @@ def main():
 
 main()
 
-### rite a function that receives a list of integers and returns their sum.
+### Write a function that receives a list of integers and returns their sum.
 def sum_list(mylist):
     total = 0
     for i in mylist:
