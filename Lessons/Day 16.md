@@ -3,31 +3,31 @@
 ## Lists
 
 ``` python
-### Removing items from a list
 c = [1, 2, 3]
 
-# remove a specific item
+# Remove a specific item
 mylist = c[:] # makes a copy of c called mylist
 mtlist.remove(1)
 print(mylist)
 print(c)
 
 # Alias
+# The association of a variable with an object is called a reference.
+# In this example there are two references to the same object
 aliaslist = c # make an alias for c called aliaslist
 aliaslist.remove(1)
 print(c)
-# The association of a variable with an object is called a reference.
-# In this example there are two references to the same object
 
+# Trying to remove an element that is not in the list raises an error
 c.remove(4) # Error
 if 4 in c:
     c.remove(4)
  
-# remove at an index
+# Removing an item by index
 del c[0]	# del is an operator
 print(c)
 
-# remove and store
+# Remove and store the item in a variable using the pop method
 value_at_zero = c.pop(0)
 print(c)
 print(value_at_zero)
@@ -107,33 +107,13 @@ def sum_list(mylist):
 print(sum_list([1, 2, 3]))	# user-defined
 print(sum[1, 2, 3])			# built-in
 
-### Tuples
-# Tuples are essentially immutable lists.
-dimensions = (1920, 1080)
-print(dimensions[0])
-print(dimensions[1])
-dimensions[0] = 1080 # TypeError
 
-# reassign a tupe
-dimensions = (1280, 720)
-
-### Other List Topics
-# nested arrays
-matix = [[1, 2, 3],
+### Nested Lists
+matrix = [[1, 2, 3],
          [4, 5, 6],
          [7, 8, 9]]
 
 print(matrix[1][1])
-
-# list comprehensions
-mysquares = []
-for x in range(10):
-    mysquares.append(x**2)
-    
-print(mysquares)
-
-mysquares = [x**2 for x in range(10)]
-print(mysquares)
 ```
 
 Posted exercises 35 and 36.
