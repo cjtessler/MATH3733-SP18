@@ -104,7 +104,7 @@ def averaage_values(d):
     return total / len(d) 
     # return sum(d.values()) / len(d)
 
-print(average_polled_numbers(our_numbers))
+print(averaage_values(our_numbers))
 
 ### Dictionaries as a collection of counters
 # Suppose you are given a string and want to count how many times each letter appears.
