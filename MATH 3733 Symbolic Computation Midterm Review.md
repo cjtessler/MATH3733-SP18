@@ -126,6 +126,9 @@ for x in range(5):
 ``` python
 word = "banana"
 for c in word:
+    # Recall:
+    # bool(0) == False
+    # bool(1) == True
     if word.index(c) % 2:
     	print(c.upper())
     else:
@@ -294,7 +297,7 @@ else:
 
 6. Write a function that calculates the area of a triangle.
 
-9. Write a recursive function that returns $n!$.
+9. Write a recursive function that returns `n!`.
 
 10. Write a function that accepts any positive integer and returns the sum of the digits. 
 
