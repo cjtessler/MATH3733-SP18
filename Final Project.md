@@ -61,4 +61,4 @@ No interactivity is needed. Use the time to explain what you know and learned. W
 
 Rubric will be posted by 4/16.
 
-Signup will be released Thursday after class on 4/19.
+Signup will be released  after class on Thursday, 4/19.
