@@ -2,7 +2,7 @@
 
 The final project is your opportunity to take your newfound savvy with programming out for a spin and develop your very own piece of software or learn an application of Python and present that. As long as your project draws upon the course’s lessons, the nature of your project is entirely up to you, albeit subject to approval. 
 
-*It is highly recommend that you install Python locally at this point. Here is a great [tutorial](https://www.youtube.com/watch?v=YYXdXT2l-Gg) on how to do so. Feel free to bring your computer to be if you need help though!*
+*It is highly recommend that you install Python locally at this point. Here is a great [tutorial](https://www.youtube.com/watch?v=YYXdXT2l-Gg) on how to do so. Feel free to bring your computer to me if you need help though!*
 
 ## Reading Assignment (Due 4/12)
 
