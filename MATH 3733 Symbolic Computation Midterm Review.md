@@ -259,22 +259,21 @@ else:
 
 **Solve the following challenges. Proper indentation is required.**
 
-2. The following program draws a triangle using the Turtle Module. Refactor the code to use a `for` loop. Encapsulate the logic into a function called `triangle` that takes a turtle `t` as a parameter. Generalize the function to make a function called `polygon` that takes the number of sides `n` and a turtle `t` has its parameters.
+1. The following program draws a triangle using the Turtle Module. Refactor the code to use a `for` loop. Encapsulate the logic into a function called `triangle` that takes a turtle `t` as a parameter. Generalize the function to make a function called `polygon` that takes the number of sides `n` and a turtle `t` has its parameters.
 
-   ```python
-   import turtle
+```python
+import turtle
 
-   bob = turtle.Turtle()
+bob = turtle.Turtle()
 
-   bob.forward(100)
-   bob.left(120)
-   bob.forward(100)
-   bob.left(120)
-   bob.forward(100)
-   bob.left(120)
-   ```
-
-3. Write a program that asks the user to enter in number. Then have the computer generate a random number between 1 and 6 inclusive and compare the result. If the numbers are the same print out a "You Win!" message. If not, print out a "Game over!" message.
+bob.forward(100)
+bob.left(120)
+bob.forward(100)
+bob.left(120)
+bob.forward(100)
+bob.left(120)
+```
+2. Write a program that asks the user to enter in number. Then have the computer generate a random number between 1 and 6 inclusive and compare the result. If the numbers are the same print out a "You Win!" message. If not, print out a "Game over!" message.
 
 3. Write a program that prints out all numbers between 1 and 100 on the same line.
 
@@ -284,14 +283,14 @@ else:
 
    3. Extension 3: Write a program that asks the user to indicate whether they want to see even or odd numbers. Then display the even or odd numbers between 1 and 100 on the same line based on their choice. Note: the user many not supply a valid choice! You will need to re-prompt them if necessary. Here's a sample running of the program:
 
-      ``` 
-      Enter "even" or "odd": apple
-      Sorry, that's not a valid choice!
-      Enter "even" or "odd": odd
-      1 3 5 ... 95 97 99
-      ```
+   ``` 
+   Enter "even" or "odd": apple
+   Sorry, that's not a valid choice!
+   Enter "even" or "odd": odd
+   1 3 5 ... 95 97 99
+   ```
 
-5. Write a program that continually asks the user for a series of prices. Keep track of the running total as the user enters prices. Prompt the user after each price to see if they wish to continue entering prices. When they are finished, print out the total amount entered.
+4. Write a program that continually asks the user for a series of prices. Keep track of the running total as the user enters prices. Prompt the user after each price to see if they wish to continue entering prices. When they are finished, print out the total amount entered.
 
 6. Write a function that accepts two arguments and computes the first argument raised to the power of the second argument. 
 

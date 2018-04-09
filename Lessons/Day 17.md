@@ -1,6 +1,6 @@
 # Day 17
 
-``` python
+``` Python
 ##### List Comprehensions #####
 mysquares = []
 for x in range(10):
@@ -51,7 +51,7 @@ dimensions = (1280, 720)
 ##### Dictionaries #####
 # A dictionary is more general than a list.
 # A list's elements were accessed using integer indices.
-# A dictionary's elements are accessed by using key
+# A dictionary's elements are accessed by using key.
 
 # Initialize an empty dictionary
 eng2sp = dict() 

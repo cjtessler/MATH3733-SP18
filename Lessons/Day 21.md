@@ -70,11 +70,9 @@ class Restaurant():
         self.restaurant_name = restaurant_name
         self.restaurant_type = restaurant_type
         
-        
     def describe_restaurant(self):
         """Prints a description of the restaurant."""
         print(f"{self.restaurant_name.title()} serves {self.restaurant_type}.")
-        
         
     def open_restaurant(self):
         """Opens the restaurant."""
