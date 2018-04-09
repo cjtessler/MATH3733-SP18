@@ -2,7 +2,7 @@
 
 The final project is your opportunity to take your newfound savvy with programming out for a spin and develop your very own piece of software or learn an application of Python and present that. As long as your project draws upon the course’s lessons, the nature of your project is entirely up to you, albeit subject to approval. 
 
-*It is highly recommend that you install Python locally at this point. Here is a great [tutorial](https://www.youtube.com/watch?v=YYXdXT2l-Gg) on how to do so. Feel free to bring your computer to be if you need help though!*
+*It is highly recommend that you install Python locally at this point. Here is a great [tutorial](https://www.youtube.com/watch?v=YYXdXT2l-Gg) on how to do so. Feel free to bring your computer to me if you need help though!*
 
 ## Reading Assignment (Due 4/12)
 
@@ -28,7 +28,7 @@ Any projects that would require you to install Python 3.6 natively on your compu
   - [SimpleGUI](http://py3.codeskulptor.org/docs.html#tabs-Graphics) via [CodeSkulptor](http://py3.codeskulptor.org/) ([Demos written in Python 2.7)](http://www.codeskulptor.org/demos.html#tabs-Hall-of-Fame) 
 - [Automate something](https://automatetheboringstuff.com/)
 - Web Application with [Flask](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) (local)
-- [Create a Data Visualizations](https://www.reddit.com/r/dataisbeautiful/) ([Chapter 15-17](https://drive.google.com/file/d/1JIjxz-_q_8LZK5eW4EzFlSSeKK97UuMU/view?usp=sharing)) (local)
+- [Create Data Visualizations](https://www.reddit.com/r/dataisbeautiful/) ([Chapter 15-17](https://drive.google.com/file/d/1JIjxz-_q_8LZK5eW4EzFlSSeKK97UuMU/view?usp=sharing)) (local)
   - Some features of matplotlib.pyplot and pygal are available on [Trinket](https://trinket.io/features/python3)
 - Learn [Jupyter Notebook](https://jupyter.org/) and present how to use it
 - Learn an application of Python (local)
