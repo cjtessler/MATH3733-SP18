@@ -208,6 +208,20 @@ my_tesla.battery.describe_battery()
 my_tesla.battery.get_range()
 ```
 
+```python
+from car import *
+# imports entire car module
+# not recommended, but commonly used
+
+from car import ElectricCar
+# recommended since it is clear which class is being used
+
+my_tesla = ElectricCar('tesla', 'model s', 2016)
+# No need to use dot notation when imported either of these ways
+```
+
+
+
 ### Exercises
 
 1. Using your latest  Restaurant class, store it in a module . Make a separate file that imports  Restaurant. Make a  Restaurant instance, and call one of  Restaurant ’s methods to show that the  import statement is working properly .
