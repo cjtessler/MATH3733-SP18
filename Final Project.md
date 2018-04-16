@@ -39,26 +39,60 @@ Any projects that would require you to install Python 3.6 natively on your compu
   - [Web Scraping](https://www.youtube.com/watch?v=ng2o98k983k)
 
 
-
 ## Project Week (4/16 - 4/20)
 
-Expectations:
+### Expectations
 
 - The project is to be an independent endeavor. You are welcome to talk to your peers about your project, but each student is expected to complete a unique project.
 
 
 - Cite *any* sources you use. This includes tutorials, Stack Overflow answers, GitHub repositories, and any other ideas or examples you see and implement into your project.
+
 - Your project should demonstrate mastery of many, if not all, of the programming concepts covered in class: Variables, Functions, Conditionals, Iteration, Strings, Lists, Dictionaries, Classes, Reading Data, etc.
+
 - Demonstrate mastery by explaining your project during presentation week.
+
 - Put in the time necessary outside of class to complete a polished project.
 
 
-## Presentations Week (4/26 and 4/28)
+### Project Rubric
 
-The presentation is to be 10-12 minutes. 
+|             | Nonexistent (0)                     | Limited (1)                                                 | Developing (2)                                               | Competent (3)                                                | Proficient (4)                                               |
+| ----------- | ----------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Scope       | The project does not show learning. | The project implements only basic concepts from the course. | The project implements some of the concepts from the course. | The projects implements many of the concepts from the course. | The projects demonstrates mastery of the course content, and explores new ideas. |
+| Correctness | The code does not run.              | The code is difficult to follow, crashes, and unworkable.   | The code is difficult to follow, but mostly free of bugs and workable. | The code is mostly consistent, workable, and free of bugs.   | The code is consistent, workable, and free of bugs.          |
+| Design      | There is no code.                   | The code does not make sense.                               | The code is written, but is unclear, inefficient, and logically incorrect. | The code is written, but is not efficient.                   | The code is written well.                                    |
+| Style       | The code code is not readable.      | The code is poorly written.                                 | The code is difficult to read, and is not documented.        | Most of the code is readable, but is not documented.         | All code is easily readable, well-documented, and follows Pythonic conventions discussed in class. |
+| Submission  | Did not submit.                     |                                                             | Did not submit 24 hours before presentation.                 |                                                              | Satisfied all submission requirements.                       |
+
+Scope: To what extent does your code implement the ideas from the course?
+
+Correctness: To what extent is your code consistent, workable, and free of bugs?
+
+Design: To what extent is your code written well (i.e., clearly, efficiently, elegantly, and/or logically)?
+
+Style: To what extent is your code readable (i.e., commented and indented with variables aptly named)?
+
+### Submission (draft)
+
+Do a short write-up in a text file called `readme` that explains your project, and anything I made need to do to run it. Include the version of Python and the modules used to complete your project. Cite all sources in this file. *Submission should be be done via MyFire at least 24 hours before your presentation.* This gives me time to review the project before the presentation.
+
+## Presentations Week (4/24 and 4/26)
+
+The presentation is to be 10-12 minutes minimum.
 
 No interactivity is needed. Use the time to explain what you know and learned. We will post your code after the presentation for your peers to review in more depth.
 
-Rubric will be posted by 4/16.
+Signup will be released after class on Thursday, 4/19.
 
-Signup will be released  after class on Thursday, 4/19.
+### Presentation Rubric
+
+|                             | Nonexistent (0)  | Limited (1)                              | Developing (2)                                            | Competent (3)                                      | Proficient (4)                                               |
+| --------------------------- | ---------------- | ---------------------------------------- | --------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------ |
+| Introduction and Conclusion | No presentation  | There was no introduction or conclusion. | Presentation had weak introduction and conclusion.        | Presentation had weak introduction or conclusion.  | Clear introduction and conclusion.                           |
+| Communication               | No presentation. | Did not effectively communicate project. | Communicated project, but with poor communication skills. | Effective and confident communication of project.  | Effective, confident, and interesting communication of project. |
+| Preparation                 | No presentation  | Preparation was poor/                    | Preparation was good.                                     | Preparation was excellent.                         | Preparation was superior.                                    |
+| Knowledge                   | No presentation  | Did not demonstrate knowledge.           | Was not able to demonstrate knowledge.                    | Demonstrated knowledge of majority of the project. | Clearly demonstrated knowledge of entire project.            |
+| Length                      | No presentation  | Did not satisfy time requirement.        | ---                                                       | 10-15 minutes poorly used                          | 10-15 minutes well used                                      |
+
+  
